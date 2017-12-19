@@ -30,10 +30,11 @@ for (arrayCounter = 0; arrayCounter < totalBulletArrays; arrayCounter++) {
 		initAngle = (bulletCounter % bulletPerArray) * (individualArraySpread / (bulletPerArray - 0));
 		bulletAngle = initAngle + (arrayCounter * totalArraySpread);
 		finalBulletAngle = bulletAngle + angleSpinOffset;
-		bullet = instance_create_layer(x + 8, y + 8, "Instances_bullet_layer", obj_bullet1);
+		bullet = instance_create_layer(x, y, "Instances_bullet_layer", obj_bullet1);
 		with (bullet) {
+			image_angle = other.finalBulletAngle;
 			speed = other.bulletSpeed;
-			direction = other.finalBulletAngle;
+			direction = other.finalBulletAngle + 90;
 		}
 	}
 }

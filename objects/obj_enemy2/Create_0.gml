@@ -3,11 +3,7 @@
 
 bulletPatternObj = instance_create_layer(x, y, "Instances_bullet_layer", obj_bullet_pattern_controller);
 
-bulletPatternObj.pattern = 1;
+//bulletPatternObj.pattern = 3;
 
 tempStep = 0;
-tempMaxStep = 50;
-
-initFlag = true;
-initStepCountMax = 600;
-initStepCounter = 0;
+tempMaxStep = 100;

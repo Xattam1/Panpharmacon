@@ -4,20 +4,28 @@
 bulletPatternObj.x = x;
 bulletPatternObj.y = y;
 
-if (tempStep < tempMaxStep) {
-	bulletPatternObj.pattern = 1;
+if (!initFlag) {
+	if (tempStep < tempMaxStep) {
+		bulletPatternObj.pattern = 1;
+		x += 5;
+		tempStep++;
+	} else if (tempStep < (tempMaxStep * 2)) {
+		bulletPatternObj.pattern = 2;
+		y += 5;
+		tempStep++
+	} else if (tempStep < (tempMaxStep * 3)) {
+		bulletPatternObj.pattern = 2;
+		x -= 5;
+		tempStep++;
+	} else if (tempStep < (tempMaxStep * 4)) {
+		bulletPatternObj.pattern = 2;
+		y -= 5;	
+		tempStep++;
+	} else { tempStep = 0; }
+} else {
 	x += 5;
-	tempStep++;
-} else if (tempStep < (tempMaxStep * 2)) {
-	bulletPatternObj.pattern = 2;
-	y += 5;
-	tempStep++
-} else if (tempStep < (tempMaxStep * 3)) {
-	bulletPatternObj.pattern = 2;
-	x -= 5;
-	tempStep++;
-} else if (tempStep < (tempMaxStep * 4)) {
-	bulletPatternObj.pattern = 2;
-	y -= 5;	
-	tempStep++;
-} else { tempStep = 0; }
+	initStepCounter += 5;
+	if (initStepCounter == initStepCountMax) {
+		initFlag = false;
+	}
+}
