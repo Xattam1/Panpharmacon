@@ -1,0 +1,20 @@
+git branch # list your branches
+git checkout -b justin # your new branch!! keep this one up to date!
+
+
+git status  # changes since your last commit
+
+git add * # add your changes
+
+git commit -m "coolio message my guy" # add a msg
+
+git push -u origin justin # commit to your new branch 
+
+
+then go on github.com....
+
+create a pull request 
+
+merge
+
+done
