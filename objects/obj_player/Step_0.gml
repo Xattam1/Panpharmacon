@@ -1,5 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Shooting cooldown
+if curr_cd != 0 {
+	curr_cd--	
+}
+
+// Movement
 if keyboard_check(vk_up) && keyboard_check(vk_right) {
 	direction = 45
 	speed = player_speed
@@ -27,3 +31,13 @@ if keyboard_check(vk_up) && keyboard_check(vk_right) {
 } else {
 	speed = 0	
 }
+
+
+// Handle Shooting
+if keyboard_check(vk_space) {
+	if curr_cd <= 0 {
+		instance_create_layer(x, y, 1, obj_bullet2)	
+		curr_cd = bullet_cooldown
+	}
+}
+
