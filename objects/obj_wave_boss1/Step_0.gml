@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (--hp == 0) {
+if (!instance_exists(bossInstance)) {
 	instance_destroy();
-	instance_destroy(bulletPatternObj);
 }

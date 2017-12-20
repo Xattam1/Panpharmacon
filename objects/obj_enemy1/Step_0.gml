@@ -25,7 +25,5 @@ if (!initFlag) {
 } else {
 	x += 5;
 	initStepCounter += 5;
-	if (initStepCounter == initStepCountMax) {
-		initFlag = false;
-	}
+	if (initStepCounter == initStepCountMax) { initFlag = false; }
 }
