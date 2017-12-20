@@ -3,3 +3,6 @@
 
 instance_destroy();
 instance_destroy(bulletPatternObj);
+obj_status.levelProgress++
+
+spawnBuff()
