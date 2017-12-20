@@ -6,5 +6,6 @@ if (!initFlag) {
 		instance_destroy();
 		instance_destroy(bulletPatternObj1);
 		instance_destroy(bulletPatternObj2);
+		obj_status.levelProgress = 0;
 	}
 }

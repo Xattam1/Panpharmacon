@@ -1008,6 +1008,44 @@
             }
         },
         {
+            "Key": "d4d31846-0b4e-4d45-ba40-7f568d2e77a4",
+            "Value": {
+                "id": "2408ed88-7af5-474d-b119-df3a9422219b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_main_theme\/snd_main_theme.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d67f4a33-91d7-4124-bf7d-074d6807f393",
+            "Value": {
+                "id": "e1cf6788-7aea-44fe-8880-863d0d6c5cb8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_explosion\/snd_explosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d73c5d12-2b4e-4eb6-80b5-59bd562789ab",
             "Value": {
                 "id": "f24ae8a8-0fa0-42b5-8667-1100c0b69d68",
