@@ -3,6 +3,9 @@
 
 if (--hp == 0) {
 	instance_destroy();
+	audio_play_sound(snd_explosion, 20, false);
 	instance_destroy(bulletPatternObj);
-  obj_status.levelProgress++
+	obj_status.levelProgress += 100 / 13;
+	spawnBuff()
 }
+

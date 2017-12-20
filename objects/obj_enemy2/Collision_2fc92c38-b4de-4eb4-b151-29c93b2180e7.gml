@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 instance_destroy();
+audio_play_sound(snd_explosion, 20, false);
 instance_destroy(bulletPatternObj);
-obj_status.levelProgress++
+obj_status.levelProgress += 100 / 13;
 
 spawnBuff()

@@ -4,6 +4,7 @@ if curr_cd != 0 {
 }
 
 // Movement
+/*
 if keyboard_check(vk_up) && keyboard_check(vk_right) {
 	direction = 45
 	speed = player_speed
@@ -31,6 +32,7 @@ if keyboard_check(vk_up) && keyboard_check(vk_right) {
 } else {
 	speed = 0	
 }
+*/
 
 
 // Handle Shooting
@@ -41,3 +43,6 @@ if keyboard_check(vk_space) {
 	}
 }
 
+// Mouse Movement
+if (mouse_x < window_get_width() && mouse_x >= 0) { x = mouse_x }
+if (mouse_y < window_get_height() && mouse_y >= 0) { y = mouse_y }
