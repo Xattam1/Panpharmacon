@@ -36,7 +36,7 @@ if keyboard_check(vk_up) && keyboard_check(vk_right) {
 // Handle Shooting
 if keyboard_check(vk_space) {
 	if curr_cd <= 0 {
-		instance_create_layer(x, y, 1, obj_bullet2)	
+		playerShoot()
 		curr_cd = bullet_cooldown
 	}
 }
