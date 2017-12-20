@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-instance_destroy();
-instance_destroy(bulletPatternObj);
-obj_status.levelProgress++
+obj_status.playerBuff = 1
+instance_destroy()

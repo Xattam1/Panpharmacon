@@ -3,3 +3,9 @@
 
 playerMaxHealth = 100
 playerHealth = playerMaxHealth
+
+
+levelMaxProgress = 100
+levelProgress = 0
+
+playerBuff = 0

@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-instance_destroy();
-instance_destroy(bulletPatternObj);
-obj_status.levelProgress++
+direction = 270
+speed = .5
