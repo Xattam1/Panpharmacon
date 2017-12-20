@@ -11,3 +11,5 @@ TBA = 0;
 TAS = 0;
 ASO = 0;
 BS = 0;
+
+patternOld = pattern;

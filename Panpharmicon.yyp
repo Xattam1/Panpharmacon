@@ -87,6 +87,25 @@
             }
         },
         {
+            "Key": "35538c9c-f75b-4abc-9af3-a3c0eeff86f2",
+            "Value": {
+                "id": "d2a5136f-75ee-428d-bc17-9758b22c9f4e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_boss1\/spr_boss1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "35efe0c3-ea8a-4329-88da-a45533e057c3",
             "Value": {
                 "id": "acb4581e-1ce3-4525-ab48-e07122c05be6",
@@ -327,6 +346,25 @@
             }
         },
         {
+            "Key": "b64fa3e1-c528-421c-a9cf-0a9ce7be01b9",
+            "Value": {
+                "id": "ca5e30c4-4e10-4233-9553-7a33aa6c8cc6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_wave_boss1\/obj_wave_boss1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b78c1480-5ce0-4720-b069-b25ac84a41ec",
             "Value": {
                 "id": "1a2532d4-acdb-41e3-904b-b9c1a9a360b8",
@@ -459,6 +497,25 @@
             "Value": {
                 "id": "c86bec8a-50fe-4972-87ab-18f9657f0d7b",
                 "resourcePath": "objects\/obj_player\/obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f3b81705-8e97-456b-927d-f2741f6133bf",
+            "Value": {
+                "id": "329ff8d9-7224-4426-87ff-e2e7a3b93c59",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_boss1\/obj_boss1.yy",
                 "resourceType": "GMObject"
             }
         },

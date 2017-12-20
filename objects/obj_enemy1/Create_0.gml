@@ -11,3 +11,5 @@ tempMaxStep = 50;
 initFlag = true;
 initStepCountMax = 600;
 initStepCounter = 0;
+
+hp = 3;							// COULDN'T USE HEALTH BECAUSE IT WOULD AFFECT EVERY ENEMY OF THIS TYPE.
